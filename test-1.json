@@ -1,0 +1,194 @@
+{
+  "id": "40b1c40e-faee-4d8e-9ca9-d006b63208c4",
+  "type": "AGENT",
+  "host": "ip-10-103-80-48.ec2.internal",
+  "status": {
+    "state": "connected"
+  },
+  "category": "executor",
+  "registration": "All domains",
+  "lastActivity": "2022-07-05T16:01:51.900Z",
+  "logFile": "/opt/IBM/RIT-Agent/logs",
+  "configFile": "/opt/IBM/RIT-Agent/config/Agent.config",
+  "version": "10.1.2.0",
+  "ports": "4476",
+  "attributes": [
+    "Linux"
+  ],
+  "engines": [
+    {
+      "identifier": "instance1",
+      "logFile": "/opt/IBM/RIT-Agent/logs",
+      "deploymentId": "7b437ecb-eba1-4bf1-81cc-995041234092",
+      "domain": "ServiciosVirtuales ",
+      "project": {
+        "name": "OfertaComercialTarjetasCreditoV1.0",
+        "location": "/tmp/ita/6798436447767057705/engines/276/ProjectFiles",
+        "version": "1.0"
+      },
+      "stubs": [
+        {
+          "managedStubId": "b41bf07e-2f45-40ac-a73a-ea2520a284f5",
+          "name": "OfertaComercialTarjetasCreditoV1.0",
+          "status": {
+            "state": "running",
+            "explanation": "The stub is running"
+          }
+        }
+      ],
+      "status": {
+        "state": "active",
+        "explanation": "The engine is running stubs"
+      },
+      "domainId": "3",
+      "environment": "Q1",
+      "jvmArgs": ""
+    },
+    {
+      "identifier": "instance2",
+      "logFile": "/opt/IBM/RIT-Agent/logs",
+      "deploymentId": "2cca4626-202e-425c-9263-924b4a596a7c",
+      "domain": "ServiciosVirtuales ",
+      "project": {
+        "name": "OfertaComercialTarjetasCreditoV1.0",
+        "location": "/tmp/ita/6798436447767057705/engines/277/ProjectFiles",
+        "version": "1.0"
+      },
+      "stubs": [
+        {
+          "managedStubId": "2d9e3d12-3550-4788-bad8-e696eb41b956",
+          "name": "OfertaComercialTarjetasCreditoV1.0",
+          "status": {
+            "state": "running",
+            "explanation": "The stub is running"
+          }
+        }
+      ],
+      "status": {
+        "state": "active",
+        "explanation": "The engine is running stubs"
+      },
+      "domainId": "3",
+      "environment": "Q2",
+      "jvmArgs": ""
+    },
+    {
+      "identifier": "instance10",
+      "logFile": "/opt/IBM/RIT-Agent/logs",
+      "deploymentId": "fbce429d-949c-4e4e-90b2-11d9e316509d",
+      "domain": "ServiciosVirtuales ",
+      "project": {
+        "name": "AutenticarClienteOTPV2.0",
+        "location": "/tmp/ita/6798436447767057705/engines/278/ProjectFiles",
+        "version": "1.0"
+      },
+      "stubs": [
+        {
+          "managedStubId": "4d04207c-c332-4912-be1c-8bc833434f7f",
+          "name": "AutenticarClienteOTPV2.0",
+          "status": {
+            "state": "running",
+            "explanation": "The stub is running"
+          }
+        }
+      ],
+      "status": {
+        "state": "active",
+        "explanation": "The engine is running stubs"
+      },
+      "domainId": "3",
+      "environment": "Q1",
+      "jvmArgs": ""
+    },
+    {
+      "identifier": "instance4",
+      "logFile": "/opt/IBM/RIT-Agent/logs",
+      "deploymentId": "7816dc5c-c1de-40f6-af96-ad6826e73df0",
+      "domain": "ServiciosVirtuales ",
+      "project": {
+        "name": "AutenticarClienteOTPV2.0",
+        "location": "/tmp/ita/6798436447767057705/engines/279/ProjectFiles",
+        "version": "1.0"
+      },
+      "stubs": [
+        {
+          "managedStubId": "7790f555-65db-4d09-8806-4f874d65e6b4",
+          "name": "AutenticarClienteOTPV2.0",
+          "status": {
+            "state": "running",
+            "explanation": "The stub is running"
+          }
+        }
+      ],
+      "status": {
+        "state": "active",
+        "explanation": "The engine is running stubs"
+      },
+      "domainId": "3",
+      "environment": "Q2",
+      "jvmArgs": ""
+    },
+    {
+      "identifier": "instance5",
+      "logFile": "/opt/IBM/RIT-Agent/logs",
+      "deploymentId": "ac3aa82a-d8b6-46d6-95e7-b44d86246fc0",
+      "domain": "ServiciosVirtuales ",
+      "project": {
+        "name": "GenerarOTPV2.0",
+        "location": "/tmp/ita/6798436447767057705/engines/280/ProjectFiles",
+        "version": "1.0"
+      },
+      "stubs": [
+        {
+          "managedStubId": "12d1d24f-5d76-4f96-843f-45617874f303",
+          "name": "GenerarOTPV2.0",
+          "status": {
+            "state": "running",
+            "explanation": "The stub is running"
+          }
+        }
+      ],
+      "status": {
+        "state": "active",
+        "explanation": "The engine is running stubs"
+      },
+      "domainId": "3",
+      "environment": "Q1",
+      "jvmArgs": ""
+    },
+    {
+      "identifier": "instance3",
+      "logFile": "/opt/IBM/RIT-Agent/logs",
+      "deploymentId": "936f3518-e7b7-4f5c-bb9d-004f0e4e6753",
+      "domain": "ServiciosVirtuales ",
+      "project": {
+        "name": "GenerarOTPV2.0",
+        "location": "/tmp/ita/6798436447767057705/engines/281/ProjectFiles",
+        "version": "1.0"
+      },
+      "stubs": [
+        {
+          "managedStubId": "e343ef00-5799-48fd-970f-b06780a75d4f",
+          "name": "GenerarOTPV2.0",
+          "status": {
+            "state": "running",
+            "explanation": "The stub is running"
+          }
+        }
+      ],
+      "status": {
+        "state": "active",
+        "explanation": "The engine is running stubs"
+      },
+      "domainId": "3",
+      "environment": "Q2",
+      "jvmArgs": ""
+    }
+  ],
+  "capabilities": "Virtualization (incl. Dedicated Engines), Performance Testing, Resource Monitoring",
+  "systemInfo": {
+    "os": "Linux",
+    "cores": 4,
+    "mem": "9.8 GB"
+  }
+}
